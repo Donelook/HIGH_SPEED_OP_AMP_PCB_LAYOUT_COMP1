@@ -1,0 +1,20 @@
+$begin 'MatrixData'
+	Type='ACL'
+	Frequency=100000000
+	SolutionType='Adaptive'
+	Names(142, 144)
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(6.915903186168871e-09)
+			c(3.762418194119854e-10)
+		$end 'r0'
+		$begin 'r1'
+			c(3.762418194119854e-10)
+			c(7.280010241368913e-09)
+		$end 'r1'
+	$end 'Matrix'
+	TransitionRegionPreviousFreqs()
+	TransitionRegionCurrentFreqs()
+$end 'MatrixData'

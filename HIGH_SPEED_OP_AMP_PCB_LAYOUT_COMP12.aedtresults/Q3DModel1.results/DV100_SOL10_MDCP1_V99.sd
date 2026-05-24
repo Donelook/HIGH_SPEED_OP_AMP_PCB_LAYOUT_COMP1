@@ -1,0 +1,20 @@
+$begin 'MatrixData'
+	Type='DCpseudo'
+	Frequency=100000000
+	SolutionType='Adaptive'
+	Names(142, 144)
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.0152991528765608)
+			c(0)
+		$end 'r0'
+		$begin 'r1'
+			c(0)
+			c(0.01800589588911511)
+		$end 'r1'
+	$end 'Matrix'
+	TransitionRegionPreviousFreqs()
+	TransitionRegionCurrentFreqs()
+$end 'MatrixData'

@@ -1,0 +1,21 @@
+--------------------- Tue May 19 22:07:21 2026 ---------------------
+
+Creating SIwave session log C:\Users\Michal\Documents\Elektronika\Kicad\Projekty\HIGH_SPEED_OP_AMP_PCB_LAYOUT_COMP1\HIGH_SPEED_OP_AMP_PCB_LAYOUT_COMP1.log
+OS: Windows 10 Professional  (Build 26200)
+
+Saved C:\Users\Michal\Documents\Elektronika\Kicad\Projekty\HIGH_SPEED_OP_AMP_PCB_LAYOUT_COMP1\HIGH_SPEED_OP_AMP_PCB_LAYOUT_COMP1.siw
+
+
+--------------------- Tue May 19 22:08:21 2026 ---------------------
+
+Appending to SIwave session log C:/Users/Michal/Documents/Elektronika/Kicad/Projekty/HIGH_SPEED_OP_AMP_PCB_LAYOUT_COMP1/HIGH_SPEED_OP_AMP_PCB_LAYOUT_COMP1.log
+Loading C:\Users\Michal\Documents\Elektronika\Kicad\Projekty\HIGH_SPEED_OP_AMP_PCB_LAYOUT_COMP1\HIGH_SPEED_OP_AMP_PCB_LAYOUT_COMP1.siw...
+
+Displaying TraceZ0 for simulation "Z0 Scan 1"...
+Translating IPC2581 design into Ansys EDB; please wait...done.
+IPC2581 translator log file saved to C:/Users/Michal/AppData/Local/Temp/Siwave_test_board_1_translation.log
+Loading Ansys EDB C:/Users/Michal/AppData/Local/Temp/Siwave_test_board_1.aedb...
+Warning: Material 'COPPER' has an unrealistically low conductivity value of 0 S/m; resetting to 5.8e7 S/m
+20 capacitors read
+0 inductors read
+20 resistors read

@@ -1,0 +1,377 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002026, month=000000000005, day=000000000020, hour=000000000000, min=000000000018, sec=000000000027)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000009357, lin=000000000355, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock2'
+	SimSetupID=6
+	SimSetupName='Setup1'
+	VersionID=99
+	SolveSetupID=0
+	$begin 'CapSurfCurrentPassNum'
+		'CapSurf.CP'(VID=100, Ver=99, P=2)
+	$end 'CapSurfCurrentPassNum'
+	$begin 'CapSurfCurrentMeshes'
+		'CSM.cmesh'(VID=100, Ver=99, Dir='DV100_S6_V99_CSM.cmesh/')
+	$end 'CapSurfCurrentMeshes'
+	$begin 'CapSurfAdpFiles'
+		IDDblMap(153, 1, 158, 2)
+		$begin 'DataMap'
+			VID=100
+			Ver=99
+			'CSM.ADP'(DblID=153, Dir='DV100_S6_V99_P153_CSM.ADP/')
+			'CSM.ADP'(DblID=158, Dir='DV100_S6_V99_P158_CSM.ADP/')
+		$end 'DataMap'
+	$end 'CapSurfAdpFiles'
+	$begin 'SU'
+	$end 'SU'
+	$begin 'DCVolCurrentPassNum'
+		'DCVol.CP'(VID=100, Ver=99, P=2)
+	$end 'DCVolCurrentPassNum'
+	$begin 'DCVolCurrentMeshes'
+		'DVM.cmesh'(VID=100, Ver=99, Dir='DV100_S6_V99_DVM.cmesh/')
+	$end 'DCVolCurrentMeshes'
+	$begin 'DCVolAdpFiles'
+		IDDblMap(163, 1, 167, 2)
+		$begin 'DataMap'
+			VID=100
+			Ver=99
+			'DVM.ADP'(DblID=163, Dir='DV100_S6_V99_P163_DVM.ADP/')
+			'DVM.ADP'(DblID=167, Dir='DV100_S6_V99_P167_DVM.ADP/')
+		$end 'DataMap'
+	$end 'DCVolAdpFiles'
+	$begin 'SU'
+		$begin 'SubData'
+			ID=1
+			SU(VID=100, Ver=99, File='DV100_S6_SD1_V99.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			SU(VID=100, Ver=99, File='DV100_S6_SD2_V99.su')
+		$end 'SubData'
+	$end 'SU'
+	$begin 'ACSurfCurrentPassNum'
+		'ACSurf.CP'(VID=100, Ver=99, P=4)
+	$end 'ACSurfCurrentPassNum'
+	$begin 'ACSurfCurrentMeshes'
+		'ASM.cmesh'(VID=100, Ver=99, Dir='DV100_S6_V99_ASM.cmesh/')
+	$end 'ACSurfCurrentMeshes'
+	$begin 'ACSurfAdpFiles'
+		IDDblMap(174, 1, 178, 2, 181, 3, 184, 4)
+		$begin 'DataMap'
+			VID=100
+			Ver=99
+			'ASM.ADP'(DblID=174, Dir='DV100_S6_V99_P174_ASM.ADP/')
+			'ASM.ADP'(DblID=178, Dir='DV100_S6_V99_P178_ASM.ADP/')
+			'ASM.ADP'(DblID=181, Dir='DV100_S6_V99_P181_ASM.ADP/')
+			'ASM.ADP'(DblID=184, Dir='DV100_S6_V99_P184_ASM.ADP/')
+		$end 'DataMap'
+	$end 'ACSurfAdpFiles'
+	$begin 'SU'
+	$end 'SU'
+	$begin 'CapLastPassNumbers'
+		'Cap.LP'(VID=100, Ver=99, P=2)
+	$end 'CapLastPassNumbers'
+	$begin 'DCRLastPassNumbers'
+		'DCR.LP'(VID=100, Ver=99, P=1)
+	$end 'DCRLastPassNumbers'
+	$begin 'DCLLastPassNumbers'
+		'DCL.LP'(VID=100, Ver=99, P=1)
+	$end 'DCLLastPassNumbers'
+	$begin 'ACRLastPassNumbers'
+		'ACR.LP'(VID=100, Ver=99, P=4)
+	$end 'ACRLastPassNumbers'
+	$begin 'ACLLastPassNumbers'
+		'ACL.LP'(VID=100, Ver=99, P=4)
+	$end 'ACLLastPassNumbers'
+	$begin 'DCPLastPassNumbers'
+		'DCP.LP'(VID=100, Ver=99, P=1)
+	$end 'DCPLastPassNumbers'
+	$begin 'Profiles'
+		PRF(VID=100, Ver=99, File='DV100_S6_V99.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=56001
+			MI(VID=100, Ver=99, Dir='DV100_S6_MI56001_V99.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=56002
+			MI(VID=100, Ver=99, Dir='DV100_S6_MI56002_V99.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=56003
+			MI(VID=100, Ver=99, Dir='DV100_S6_MI56003_V99.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock2'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=6, Instance=\'\', Solution=-3, VersionID=99)'='SolutionBlock5'
+	'SolutionKey(SimSetup=6, Instance=\'SetupDefinition\', Solution=-1, VersionID=99)'='SolutionBlock2'
+	'SolutionKey(SimSetup=6, Instance=\'SolutionDefinition\', Solution=10, VersionID=99)'='SolutionBlock4'
+	'SolutionKey(SimSetup=6, Instance=\'SolutionDefinition\', Solution=9, VersionID=101)'='SolutionBlock3'
+$end 'BlockMapName'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='Q3DModel1'
+	VersionID=2
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=187
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=100)
+	$end 'VariationIDs'
+	VersionID2=94
+	$begin 'InitialSurfaceMeshes'
+		SM(VID=100, Ver=2, Dir='DV100_V2_SM.imesh/')
+	$end 'InitialSurfaceMeshes'
+	$begin 'InitialVolumeMeshes'
+		VM(VID=100, Ver=94, Dir='DV100_V94_VM.imesh/')
+	$end 'InitialVolumeMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=56001
+			MI(VID=100, Ver=2, Dir='DV100_MI56001_V2.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=56002
+			MI(VID=100, Ver=94, Dir='DV100_MI56002_V94.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=56003
+			MI(VID=100, Ver=2, Dir='DV100_MI56003_V2.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock4'
+	SolutionName='AdaptivePass'
+	SolutionID=10
+	V=99
+	$begin 'States'
+		F(VID=100, Ver=99)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(100000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	SweepID=-1
+	$begin 'MCAP'
+		$begin 'SubData'
+			ID=1
+			MCAP(VID=100, Ver=99, File='DV100_SOL10_MCAP1_V99.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MCAP(VID=100, Ver=99, File='DV100_SOL10_MCAP2_V99.sd')
+		$end 'SubData'
+	$end 'MCAP'
+	$begin 'MCOND'
+		$begin 'SubData'
+			ID=1
+			MCOND(VID=100, Ver=99, File='DV100_SOL10_MCOND1_V99.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MCOND(VID=100, Ver=99, File='DV100_SOL10_MCOND2_V99.sd')
+		$end 'SubData'
+	$end 'MCOND'
+	$begin 'MDCR'
+		$begin 'SubData'
+			ID=1
+			MDCR(VID=100, Ver=99, File='DV100_SOL10_MDCR1_V99.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MDCR(VID=100, Ver=99, File='DV100_SOL10_MDCR2_V99.sd')
+		$end 'SubData'
+	$end 'MDCR'
+	$begin 'MDCL'
+		$begin 'SubData'
+			ID=2
+			MDCL(VID=100, Ver=99, File='DV100_SOL10_MDCL2_V99.sd')
+		$end 'SubData'
+	$end 'MDCL'
+	$begin 'MADCR'
+		$begin 'SubData'
+			ID=1
+			MADCR(VID=100, Ver=99, File='DV100_SOL10_MADCR1_V99.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MADCR(VID=100, Ver=99, File='DV100_SOL10_MADCR2_V99.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			MADCR(VID=100, Ver=99, File='DV100_SOL10_MADCR3_V99.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			MADCR(VID=100, Ver=99, File='DV100_SOL10_MADCR4_V99.sd')
+		$end 'SubData'
+	$end 'MADCR'
+	$begin 'MACL'
+		$begin 'SubData'
+			ID=1
+			MACL(VID=100, Ver=99, File='DV100_SOL10_MACL1_V99.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MACL(VID=100, Ver=99, File='DV100_SOL10_MACL2_V99.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			MACL(VID=100, Ver=99, File='DV100_SOL10_MACL3_V99.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			MACL(VID=100, Ver=99, File='DV100_SOL10_MACL4_V99.sd')
+		$end 'SubData'
+	$end 'MACL'
+	$begin 'MDCP'
+		$begin 'SubData'
+			ID=1
+			MDCP(VID=100, Ver=99, File='DV100_SOL10_MDCP1_V99.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MDCP(VID=100, Ver=99, File='DV100_SOL10_MDCP2_V99.sd')
+		$end 'SubData'
+	$end 'MDCP'
+$end 'SolutionBlock4'
+$begin 'SolutionBlock3'
+	SolutionName='LastAdaptive'
+	SolutionID=9
+	V=101
+	$begin 'States'
+		F(VID=100, Ver=101)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(100000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	SweepID=-1
+	$begin 'MCAP'
+		$begin 'SubData'
+			ID=0
+			MCAP(VID=100, Ver=101, File='DV100_SOL9_MCAP0_V101.sd')
+		$end 'SubData'
+	$end 'MCAP'
+	$begin 'MCOND'
+		$begin 'SubData'
+			ID=0
+			MCOND(VID=100, Ver=101, File='DV100_SOL9_MCOND0_V101.sd')
+		$end 'SubData'
+	$end 'MCOND'
+	$begin 'MDCR'
+		$begin 'SubData'
+			ID=0
+			MDCR(VID=100, Ver=101, File='DV100_SOL9_MDCR0_V101.sd')
+		$end 'SubData'
+	$end 'MDCR'
+	$begin 'MDCL'
+		$begin 'SubData'
+			ID=0
+			MDCL(VID=100, Ver=101, File='DV100_SOL9_MDCL0_V101.sd')
+		$end 'SubData'
+	$end 'MDCL'
+	$begin 'MADCR'
+		$begin 'SubData'
+			ID=0
+			MADCR(VID=100, Ver=101, File='DV100_SOL9_MADCR0_V101.sd')
+		$end 'SubData'
+	$end 'MADCR'
+	$begin 'MACL'
+		$begin 'SubData'
+			ID=0
+			MACL(VID=100, Ver=101, File='DV100_SOL9_MACL0_V101.sd')
+		$end 'SubData'
+	$end 'MACL'
+	$begin 'MDCP'
+		$begin 'SubData'
+			ID=0
+			MDCP(VID=100, Ver=101, File='DV100_SOL9_MDCP0_V101.sd')
+		$end 'SubData'
+	$end 'MDCP'
+	$begin 'CapSurfFields'
+		IDDblMap(154, 100000000)
+		$begin 'DataMap'
+			VID=100
+			Ver=101
+			CSF(DblID=154, Dir='DV100_SOL9_V101_F154_CSF/')
+		$end 'DataMap'
+	$end 'CapSurfFields'
+	$begin 'DCVolFields'
+		IDDblMap(164, 100000000)
+		$begin 'DataMap'
+			VID=100
+			Ver=101
+			DVF(DblID=164, Dir='DV100_SOL9_V101_F164_DVF/')
+		$end 'DataMap'
+	$end 'DCVolFields'
+	$begin 'ACSurfFields'
+		IDDblMap(175, 100000000)
+		$begin 'DataMap'
+			VID=100
+			Ver=101
+			ASF(DblID=175, Dir='DV100_SOL9_V101_F175_ASF/')
+		$end 'DataMap'
+	$end 'ACSurfFields'
+$end 'SolutionBlock3'
+$begin 'SolutionBlock5'
+	$begin '56001'
+		ConvSetupName='CapConv'
+		MaxPasses='10'
+		MinPasses='1'
+		ConvTarget='1'
+		ConvTargetConsecPasses='N/A'
+		ConvCurrentConsecPasses='N/A'
+		c(tri=82996, p=1)
+		c(tri=100424, delta=0.736791, p=2)
+	$end '56001'
+	$begin '56002'
+		ConvSetupName='DCRLConv'
+		MaxPasses='(10, 1)'
+		MinPasses='(1, 1)'
+		ConvTarget='(1, 1)'
+		ConvTargetConsecPasses='N/A'
+		ConvCurrentConsecPasses='N/A'
+		c(dP='(1, 0)', p=1, dRL='(N/A, N/A)', type='C', tet=1211)
+		c(dP='(1, 1)', p=2, dRL='(0.26851, N/A)', type='M', tet=1425, dR=0.268515)
+	$end '56002'
+	$begin '56003'
+		ConvSetupName='ACRLConv'
+		MaxPasses='10'
+		MinPasses='1'
+		ConvTarget='1'
+		ConvTargetConsecPasses='N/A'
+		ConvCurrentConsecPasses='N/A'
+		c(tri=81858, p=1)
+		c(delta=5.48726, tri=104370, p=2)
+		c(delta=4.41053, tri=120770, p=3)
+		c(delta=0.923805, tri=153496, p=4)
+	$end '56003'
+$end 'SolutionBlock5'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=3224, lin=103, lvl=0)
+		SolutionBlock5(pos=8464, lin=321, lvl=0)
+		SolutionBlock3(pos=6710, lin=240, lvl=0)
+		SolutionBlock4(pos=4476, lin=143, lvl=0)
+		SolutionBlock2(pos=370, lin=1, lvl=0)
+		SolutionBlock1(pos=3690, lin=110, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=9357, lin=355, lvl=0)
+	$end '$index$'
+$end '$index$'
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

@@ -1,0 +1,55 @@
+.title KiCad schematic
+J1 __J1
+R18 Net-_U4-+_ GND 100
+R19 Net-_U4--_ Net-_C16-Pad2_ 100
+C16 Net-_U4--_ Net-_C16-Pad2_ 1p
+R17 Net-_J8-In_ Net-_U4--_ 100
+U4 __U4
+R16 GND Net-_J8-In_ 50
+J8 __J8
+C18 +5V GND 10u
+C17 +5V GND 100n
+C20 GND -5V 100n
+C19 GND -5V 10u
+J9 __J9
+R20 Net-_C16-Pad2_ Net-_J9-In_ 50
+R3 Net-_U1-+_ GND 100
+R4 Net-_U1--_ Net-_C1-Pad2_ 100
+C1 Net-_U1--_ Net-_C1-Pad2_ 1p
+R2 Net-_J2-In_ Net-_U1--_ 100
+U1 __U1
+R1 GND Net-_J2-In_ 50
+J2 __J2
+C3 +5V GND 10u
+C2 +5V GND 100n
+C5 GND -5V 100n
+C4 GND -5V 10u
+J3 __J3
+R5 Net-_C1-Pad2_ Net-_J3-In_ 50
+R8 Net-_U2-+_ GND 100
+R9 Net-_U2--_ Net-_C6-Pad2_ 100
+C6 Net-_U2--_ Net-_C6-Pad2_ 1p
+R7 Net-_J4-In_ Net-_U2--_ 100
+U2 __U2
+R6 GND Net-_J4-In_ 50
+J4 __J4
+C8 +5V GND 10u
+C7 +5V GND 100n
+C10 GND -5V 100n
+C9 GND -5V 10u
+J5 __J5
+R10 Net-_C6-Pad2_ Net-_J5-In_ 50
+R13 Net-_U3-+_ GND 100
+R14 Net-_U3--_ Net-_C11-Pad2_ 100
+C11 Net-_U3--_ Net-_C11-Pad2_ 1p
+R12 Net-_J6-In_ Net-_U3--_ 100
+U3 __U3
+R11 GND Net-_J6-In_ 50
+J6 __J6
+C13 +5V GND 10u
+C12 +5V GND 100n
+C15 GND -5V 100n
+C14 GND -5V 10u
+J7 __J7
+R15 Net-_C11-Pad2_ Net-_J7-In_ 50
+.end

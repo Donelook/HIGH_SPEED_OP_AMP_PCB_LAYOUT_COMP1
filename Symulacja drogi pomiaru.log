@@ -1,0 +1,19 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\Michal\Documents\Elektronika\Kicad\Projekty\HIGH_SPEED_OP_AMP_PCB_LAYOUT_COMP1\Symulacja drogi pomiaru.net
+Start Time: Thu May 21 21:50:22 2026
+solver = Normal
+Maximum thread count: 24
+tnom = 27
+temp = 27
+method = modified trap
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 0.209 seconds.
+
+Files loaded:
+C:\Users\Michal\Documents\Elektronika\Kicad\Projekty\HIGH_SPEED_OP_AMP_PCB_LAYOUT_COMP1\Symulacja drogi pomiaru.net
+C:\Users\Michal\AppData\Local\LTspice\lib\sym\lm7171.lib
+
